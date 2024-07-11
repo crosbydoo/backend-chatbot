@@ -1,0 +1,176 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey"],
+        "responses": [
+            {
+                "message": "Hello! How can I assist you?",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "Hi there!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "Hey! How's it going?",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later"],
+        "responses": [
+            {
+                "message": "Goodbye! Have a great day!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "See you later!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "Bye! Take care!",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks", "appreciate it"],
+        "responses": [
+            {
+                "message": "You're welcome!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "No problem!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "Glad I could help!",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "programming_languages",
+        "patterns": ["What programming languages do you know?", "Which programming languages are you proficient in?", "Tell me about your programming language skills.", "programming skill"],
+        "responses": [
+            {
+                "message": "I am proficient in Python, JavaScript, Java, C++, and many more!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "I know Python, JavaScript, Java, C++, and several other languages.",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "code_editor",
+        "patterns": ["What code editor do you use?", "Which code editor are you using?", "Tell me about your code editor.", "tools"],
+        "responses": [
+            {
+                "message": "I use Visual Studio Code (VS Code) for most of my development tasks.",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "My primary code editor is Visual Studio Code (VS Code).",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "frameworks_libraries",
+        "patterns": ["What frameworks and libraries are you familiar with?", "Tell me about the frameworks and libraries you use.", "Which frameworks and libraries do you know?"],
+        "responses": [
+            {
+                "message": "I am familiar with React, Angular, Vue.js, Flask, Django, Express.js, and many more!",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "I know React, Angular, Vue.js, Flask, Django, Express.js, and several other frameworks and libraries.",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "choose_role",
+        "patterns": ["Choose your role", "Select your position", "Pick a role", "role"],
+        "responses": [
+            {
+                "message": "Please select your role:",
+                "type_bubble": "dropdown_bubble",
+                "options": ["Developer", "Designer", "Product Manager", "QA Engineer"]
+            }
+        ]
+    },
+    {
+        "tag": "select_programming_languages",
+        "patterns": ["What programming languages do you know?", "Which languages are you proficient in?", "Tell me about your programming skills.", "skills", "skill"],
+        "responses": [
+            {
+                "message": "Please select the programming languages you are familiar with:",
+                "type_bubble": "multi_select_bubble",
+                "options": ["Python", "JavaScript", "Java", "C++", "PHP", "Ruby", "Swift", "Go", "TypeScript"]
+            }
+        ]
+    },
+    {
+        "tag": "about_developers",
+        "patterns": ["Tell me about developers", "What do developers do?", "Explain developers", "developers"],
+        "responses": [
+            {
+                "message": "Developers are professionals who write and maintain code for computer programs. They work in various fields, including web development, mobile apps, and software engineering.",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "A developer is someone who creates software applications and systems by writing code in various programming languages. They solve problems and build solutions for users.",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "about_it",
+        "patterns": ["Tell me about IT", "What is IT?", "Explain IT", "information technology"],
+        "responses": [
+            {
+                "message": "Information Technology (IT) refers to the use of computers and telecommunications equipment to store, retrieve, transmit, and manipulate data. It encompasses a wide range of technologies and industries.",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "IT stands for Information Technology. It involves the use of computers and networks to process and distribute data. IT professionals work with hardware, software, and networks to ensure systems function efficiently.",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "about_anime",
+        "patterns": ["Tell me about anime", "What is anime?", "Explain anime", "anime"],
+        "responses": [
+            {
+                "message": "Anime is a style of animation that originated in Japan and has become popular worldwide. It covers a wide range of genres and often features vibrant artwork and fantastical themes.",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "Anime refers to Japanese animated works that encompass a variety of genres and styles. It includes TV series, films, and web series, known for their colorful artwork and imaginative stories.",
+                "type_bubble": "bubble"
+            }
+        ]
+    },
+    {
+        "tag": "about_world",
+        "patterns": ["Tell me about the world", "What is the world?", "Explain the world", "world"],
+        "responses": [
+            {
+                "message": "The world, also known as Earth, is the third planet from the Sun in our solar system. It is home to millions of species of plants and animals, including humans.",
+                "type_bubble": "bubble"
+            },
+            {
+                "message": "The world is a diverse and dynamic planet with a wide range of ecosystems and cultures. It has a rich history and is constantly evolving due to natural and human-made changes.",
+                "type_bubble": "bubble"
+            }
+        ]
+    }
+]
